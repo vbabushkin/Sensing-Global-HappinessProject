@@ -1,0 +1,8 @@
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1/statuses/sample.json?oauth_body_hash=2jmj7l5rSw0yVb%2FvlWAYkK%2FYBwk%3D&amp;oauth_nonce=16999792&amp;oauth_timestamp=1418812979&amp;oauth_consumer_key=evFn5jfil9WjJtEIYw6qB4rqk&amp;oauth_signature_method=HMAC-SHA1&amp;oauth_version=1.0&amp;oauth_token=2605269090-Iect4gvefLbon4I6dGuEcS85SRiD5TOWnpiBCcS&amp;oauth_signature=GmrdgGbCjH34CsZeBLJh38M%2BZw8%3D'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>

@@ -1,0 +1,5 @@
+First I combine the new tweets of some countries
+for f in $dir1/*.txt; do cat $f $dir2/$(basename "$f") > outputfolder/$(basename "$f"); done
+
+then I combine them with old ones
+

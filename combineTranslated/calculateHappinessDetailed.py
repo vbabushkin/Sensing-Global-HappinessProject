@@ -1,0 +1,76 @@
+__author__ = 'vahan'
+import re
+import numpy as np
+import glob
+
+
+
+readfile = open("happiness_index_rm4to6.txt", "r")
+outfile = open('CountryHappinessDetailed.txt','w')
+dictList={}
+avgHappinessCountries ={}
+
+for row in readfile: # in the main words ranking!
+    field=row.strip()
+    field=field.split("\t") # seperated by tab? words perhaps
+    dictList[field[0]]=float(field[1]) #ok the word and its scale!
+
+files = glob.glob('*.txt')
+for file in files:
+    if file.startswith('text'):
+        ToBeHappy = open(file, "r")
+        file
+
+        outputHappiness = []
+        sumHappiness = 0
+        termFreq= {}
+        happyWords = 0 # initialize the
+        for line in ToBeHappy:
+            words =  re.sub("[^\w]", " ",  line.lower()).split()
+            wordScore = 0 #happiness scores of words
+            wordCount =0 #number of terms that have happiness scale
+            for word in words:
+                    if word in dictList:
+                       wordCount = wordCount+1
+                       wordScore = (wordScore+  dictList[word])
+                       #print word
+                       #print dictList[word]
+                       if word in termFreq:
+                           termFreq[word]= termFreq[word]+1
+                       else:
+                           termFreq[word]= 1
+
+       # print words
+
+        #for word in line.split():
+         #   if word in dictList:
+          #         wordCount = wordCount+1
+           #        wordScore = (wordScore+  dictList[word])
+            #       print word
+             #      print dictList[word]
+              #     if word in termFreq:
+
+               #        termFreq[word]= termFreq[word]+1
+                #   else:
+                 #      termFreq[word]= 1
+            if wordCount > 0:
+                outputHappiness.append(wordScore/wordCount)
+		outfile.write(file[24:-4] + "\t" + str(wordScore/wordCount)
+print outputHappiness
+                #print wordScore/wordCount
+                #sumHappiness = sumHappiness + wordScore
+                #happyWords = happyWords + wordCount
+            #else:
+             #   outputHappiness.append(0)
+                #print 0
+
+        #print file
+
+        #print outputHappiness
+        #termFreq
+        #len(outputHappiness)
+        #a = np.array(outputHappiness)
+        #np.mean(a[np.nonzero(a)])
+        #avgHappinessCountries[file[24:-4]]= np.mean(a[np.nonzero(a)])
+       # outfile.write(file[24:-4] + "\t" + str(np.sum(a[np.nonzero(a)])) + "\t" + str(np.mean(a[np.nonzero(a)]))+ "\t" + str(np.std(a[np.nonzero(a)])) + "\t" + str(len(a[np.nonzero(a)])) + "\t" + str(sumHappiness) +  "\t" + str(happyWords) + "\n")
+        #print avgHappinessCountries

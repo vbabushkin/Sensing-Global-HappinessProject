@@ -1,0 +1,16 @@
+First I combine the new tweets of some countries
+for f in $dir1/*.txt; do cat $f $dir2/$(basename "$f") > outputfolder/$(basename "$f"); done
+
+then I combine them with old ones
+dir1=november5_6/Translated
+dir2=november9-10/Translated
+dir3=november13-14/Translated
+dir4=october15_16/Translated
+dir5=october20_21/Translated
+dir6=october30-31/Translated
+dir7=outputfolder
+
+for f in $dir1/*.txt; do cat "$f" $dir2/"$(basename "$f")" $dir3/"$(basename "$f")" $dir4/"$(basename "$f")" $dir5/"$(basename "$f")" $dir6/"$(basename "$f")" $dir7/"$(basename "$f")" > combineTranslated/"$(basename "$f")"; done
+
+
+Now get the happiness score for them

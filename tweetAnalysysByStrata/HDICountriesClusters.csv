@@ -1,0 +1,115 @@
+,country,total_tweets,HDIcluster
+1,India,2454,4
+2,Nigeria,1262,4
+3,Pakistan,781,4
+4,Kenya,444,4
+5,Ghana,332,4
+6,Cameroon,214,4
+7,Nepal,156,4
+8,Zimbabwe,123,4
+9,Sudan,104,4
+10,Uganda,86,4
+11,Senegal,83,4
+12,Yemen,72,4
+13,Malawi,68,4
+14,Haiti,66,4
+15,Bangladesh,62,4
+16,Mozambique,50,4
+17,Zambia,47,4
+18,Angola,35,4
+19,Indonesia,36820,4
+20,Philippines,15508,3
+21,Thailand,8871,3
+22,Colombia,6814,3
+23,South Africa,2416,3
+24,Egypt,1996,3
+25,Paraguay,1738,3
+26,Ecuador,1189,3
+27,Guatemala,978,3
+28,Iraq,436,3
+29,El Salvador,432,3
+30,Nicaragua,409,3
+31,China,343,3
+32,Honduras,274,3
+33,Jamaica,241,3
+34,Morocco,210,3
+35,Algeria,166,3
+36,Mongolia,125,3
+37,Botswana,115,3
+38,Vietnam,100,3
+39,Tunisia,85,3
+40,Bolivia,58,3
+41,Namibia,56,3
+42,Maldives,33,3
+43,Uzbekistan,27,3
+44,United States,124090,2
+45,United Kingdom,22457,2
+46,Japan,22055,2
+47,Spain,17697,2
+48,France,15843,2
+49,Saudi Arabia,7577,2
+50,Italy,5014,2
+51,Canada,4284,2
+52,Netherlands,2488,2
+53,Singapore,1993,2
+54,Australia,1895,2
+55,Germany,1864,2
+56,Ireland,1618,2
+57,Sweden,1433,2
+58,Poland,1216,2
+59,Belgium,1146,2
+60,Greece,489,2
+61,Finland,472,2
+62,Israel,462,2
+63,Switzerland,453,2
+64,New Zealand,380,2
+65,Qatar,343,2
+66,Norway,315,2
+67,Denmark,229,2
+68,Hong Kong,186,2
+69,Austria,178,2
+70,Estonia,107,2
+71,Brunei,65,2
+72,Slovenia,62,2
+73,Iceland,43,2
+74,Luxembourg,40,2
+75,Lithuania,34,2
+76,Cyprus,27,2
+77,Brazil,77585,1
+78,Argentina,36620,1
+79,Turkey,27115,1
+80,Malaysia,14168,1
+81,Russia,8750,1
+82,Mexico,8660,1
+83,Portugal,4493,1
+84,Uruguay,4182,1
+85,Chile,3390,1
+86,Venezuela,2246,1
+87,Ukraine,1766,1
+88,Kuwait,1755,1
+89,United Arab Emirates,1187,1
+90,Peru,1157,1
+91,Belarus,1099,1
+92,Panama,745,1
+93,Costa Rica,701,1
+94,Latvia,578,1
+95,Jordan,509,1
+96,Serbia,404,1
+97,Oman,390,1
+98,Lebanon,386,1
+99,Libya,239,1
+100,Bahamas,230,1
+101,Bahrain,213,1
+102,Hungary,147,1
+103,Azerbaijan,142,1
+104,Kazakhstan,139,1
+105,Montenegro,121,1
+106,Sri Lanka,121,1
+107,Trinidad and Tobago,121,1
+108,Romania,117,1
+109,Croatia,97,1
+110,Iran,94,1
+111,Barbados,91,1
+112,Bulgaria,87,1
+113,Bosnia and Herz.,63,1
+114,Macedonia,51,1

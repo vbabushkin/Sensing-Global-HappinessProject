@@ -1,0 +1,7 @@
+#!/bin/bash 
+COUNTER=1130
+until python twitterstream.py>collectedTweets/output$COUNTER; do
+    echo "'twitterstream.py' crashed with exit code $?. Restarting..." >&2
+    sleep 1
+    let COUNTER+=1
+done
